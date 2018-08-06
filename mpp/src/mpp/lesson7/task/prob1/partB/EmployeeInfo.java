@@ -2,6 +2,7 @@ package mpp.lesson7.task.prob1.partB;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 
 public class EmployeeInfo {
 	
@@ -12,8 +13,12 @@ public class EmployeeInfo {
 	 * instance if the two instances have the same name and salary.
 	 */
 	public static List<Employee> removeDuplicates(List<Employee> employees) {
+
 		List<Employee> noDupsList = new ArrayList<>();
+		
 		noDupsList.add(employees.get(0));
+		
+		
 		for(int i = 1; i < employees.size(); ++i) {
 			if(!inList(employees.get(i), noDupsList)) {
 				noDupsList.add(employees.get(i));
@@ -21,6 +26,7 @@ public class EmployeeInfo {
 		}
 		return noDupsList;
 	}
+	
 	
 	/** Returns true if e is in the list emps, false otherwise */
 	private static boolean inList(Employee e, List<Employee> emps) {
