@@ -26,10 +26,10 @@ public class Employee {
 	public String toString() {
 		return "(" + name + ", " + salary + ")";
 	}
-	/*
+	
 	public boolean equals(Employee e) {
 		return e.name.equals(name) && e.salary == salary;
-	}*/
+	}
 
 	@Override
 	public int hashCode() {
@@ -39,7 +39,7 @@ public class Employee {
 		result = prime * result + salary;
 		return result;
 	}
-
+/*
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -58,7 +58,7 @@ public class Employee {
 			return false;
 		return true;
 	}
-
+*/
 	
 
 	
