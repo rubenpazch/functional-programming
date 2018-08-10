@@ -17,9 +17,13 @@ public class DataMiner {
 	public double computeAveragePerimeter() {
 		if(objects == null || objects.isEmpty()) return 0.0;
 		double sum = 0.0;
-		for(int i = 0; i < objects.size(); ++i) {
-			sum += objects.get(i).computePerimeter();
+		
+		for (ClosedCurve closedCurve : objects) {
+			sum += closedCurve.computePerimeter();
 		}
+	/*	for(int i = 0; i < objects.size(); ++i) {
+			sum += objects.get(i).computePerimeter();
+		}*/
 		return sum/objects.size();
 	}
 
