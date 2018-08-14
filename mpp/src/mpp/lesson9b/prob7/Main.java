@@ -3,7 +3,7 @@ package mpp.lesson9b.prob7;
 import java.util.*;
 import java.util.function.*;
 import java.util.stream.Collectors;
-
+ 
 public class Main {
 
 	public static void main(String[] args) {

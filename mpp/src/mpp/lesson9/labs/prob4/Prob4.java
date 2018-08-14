@@ -1,5 +1,5 @@
 package mpp.lesson9.labs.prob4;
-
+ 
 import java.math.BigInteger;
 import java.util.Arrays;
 import java.util.function.Supplier;

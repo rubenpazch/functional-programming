@@ -1,5 +1,5 @@
 package mpp.lesson9.labs.prob5;
-
+ 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -13,9 +13,7 @@ import javax.swing.text.StyledEditorKit.ForegroundAction;
 @SuppressWarnings("rawtypes")
 public class EmployeeInfoBest1 {
 
-	static enum SortMethod {
-		BYNAME, BYSALARY
-	};
+	static enum SortMethod {BYNAME, BYSALARY};
 
 	final Function<Employee, String> byName = e -> e.getName();
 

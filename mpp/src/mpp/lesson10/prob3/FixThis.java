@@ -6,19 +6,34 @@ import java.util.stream.Collectors;
 
 public class FixThis {
 	/* This method creates a compiler error -- try to fix it*/
-//	List<String> processList(List<String> list)  {
-//
-//	    return list.stream()
-//	    		   .map(x -> doNothingIfShort(x)) // This will fail to compile 
-//	               .collect(Collectors.toList());
-//	 
-//	}
+	List<String> processList(List<String> list)  {
+
+	    return list.stream()
+	    		   .map(x -> doNothingIfShort(x)) // This will fail to compile 
+	               .collect(Collectors.toList());
+	 
+	}
 	
 	 
 	String doNothingIfShort(String input) throws InputTooLongException {
+		
 	    if (input.length() > 3) throw new InputTooLongException();
 	    else return input;
+	
 	}
+	String doNothingIfShort(String input) {
+		
+	   try {
+		   if (input.length() > 3) throw new InputTooLongException();
+		   return input;
+	   }
+	   catch{
+		   throw new RuntimeException(e);
+	   }
+	
+	}	
+	
+	
 	
 	public static void main(String[] args) {
 		FixThis ft = new FixThis();

@@ -1,7 +1,7 @@
 package mpp.lesson9b.prob8;
 
 import java.util.Optional;
-
+ 
 public class Product {
 	private String productId;
 	private String productName;

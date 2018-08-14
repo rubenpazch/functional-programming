@@ -3,7 +3,7 @@ package mpp.lesson9.labs.prob6;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
+ 
 public class Section {
 	public static Stream<String> streamSection(Stream<String> stream, int m, int n) {
 		return stream.skip(m).limit(n); //implement

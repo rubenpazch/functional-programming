@@ -7,9 +7,6 @@ import mpp.lesson9.labs.prob1.dataaccess.DataAccessFacade;
 import mpp.lesson9.labs.prob1.dataaccess.DataAccess;
 
 
-
-
-
 public class Main {
 
 	public static void main(String[] args) {
