@@ -1,4 +1,4 @@
-package labs.prob5;
+package mpp.lesson9.labs.prob5;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -14,8 +14,7 @@ public class EmployeeInfoBetter {
 		BYNAME, BYSALARY
 	};
 
-	Function<Employee, String> byName = e -> e.getName();
-	
+	Function<Employee, String> byName = e -> e.getName();	
 	Function<Employee, Integer> bySalary = e -> -e.getSalary();
 
 	@SuppressWarnings("unused")

@@ -1,10 +1,10 @@
-package labs.prob1.ui;
+package mpp.lesson9.labs.prob1.ui;
 
 import java.util.Collections;
 import java.util.List;
 
-import labs.prob1.business.ControllerInterface;
-import labs.prob1.business.SystemController;
+import mpp.lesson9.labs.prob1.business.ControllerInterface;
+import mpp.lesson9.labs.prob1.business.SystemController;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -61,7 +61,7 @@ public class Start extends Application {
 		topContainer.setId("top-container");
 		MenuBar mainMenu = new MenuBar();
 		VBox imageHolder = new VBox();
-		Image image = new Image("ui/library.jpg", 400, 300, false, false);
+		Image image = new Image("mpp/lesson9/labs/prob1/ui/library.jpg", 400, 300, false, false);
 
         // simply displays in ImageView the image as is
         ImageView iv = new ImageView();

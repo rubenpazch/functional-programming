@@ -1,4 +1,4 @@
-package labs.prob3;
+package mpp.lesson9.labs.prob3;
 
 import java.util.ArrayList;
 import java.util.Comparator;

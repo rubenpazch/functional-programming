@@ -1,4 +1,6 @@
-package lesson9_part2.labs.prob11b;
+package mpp.lesson9b.prob11b;
+
+//import mpp.lesson9b.prob11a.Employee;
 
 public class Employee {
 	String firstName, lastName;
@@ -46,6 +48,9 @@ public class Employee {
 
 	public void setSalary(int salary) {
 		this.salary = salary;
+	}
+	public static String fullName(Employee e) {
+		return e.getFirstName() + " " + e.getLastName();
 	}
 }
 

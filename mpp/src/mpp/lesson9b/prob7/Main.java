@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 public class Main {
 
 	public static void main(String[] args) {
+		
 		List<Integer> intList = Arrays.asList(4, 5, -2, 0, -3, -1, -5, -4);
 
 		// expected output: [0, -1, -2, -3, -4, 4, -5, 5]
@@ -25,8 +26,10 @@ public class Main {
 	public static void ordering1(List<Integer> list) {
 
 		System.out.println(
-				list.stream().sorted((x, y) -> Math.abs(x) - Math.abs(y) == 0 ? x - y : Math.abs(x) - Math.abs(y))
-						.collect(Collectors.toList()));
+		list.stream()
+		//.sorted((x, y) -> Math.abs(x) - Math.abs(y) == 0 ? x - y : Math.abs(x) - Math.abs(y))
+		.sorted((x,y)-> Math.abs(x) - Math.abs(y) == 0 ? x - y : Math.abs(x) - Math.abs(y))
+		.collect(Collectors.toList()));
 
 	}
 

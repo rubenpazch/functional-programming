@@ -1,4 +1,4 @@
-package lesson8.labs.prob2.B;
+package mpp.lesson8.labs.prob2.B;
 
 import java.util.ArrayList;
 import java.util.Collections;

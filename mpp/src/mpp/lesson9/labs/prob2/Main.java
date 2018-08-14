@@ -1,7 +1,8 @@
-package labs.prob2;
+package mpp.lesson9.labs.prob2;
 import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.Collectors;
+
 public class Main {
 	List<Order> orders;
 	public static void main(String[] args) {

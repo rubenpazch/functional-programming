@@ -1,4 +1,4 @@
-package lesson9_part2.labs.prob10;
+package mpp.lesson9b.prob10;
 
 import java.util.IntSummaryStatistics;
 import java.util.stream.Collectors;

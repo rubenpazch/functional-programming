@@ -1,4 +1,4 @@
-package labs.prob1.dataaccess;
+package mpp.lesson9.labs.prob1.dataaccess;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package lesson9_part2.labs.prob11a;
+package mpp.lesson9b.prob11a;
 
 
 
@@ -23,7 +23,7 @@ public class Employee {
 		sb.append("" + salary+">");
 		return sb.toString();
 		
-	}
+	} 
 	public static String fullName(Employee e) {
 		return e.getFirstName() + " " + e.getLastName();
 	}

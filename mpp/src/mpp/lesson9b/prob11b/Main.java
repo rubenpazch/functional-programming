@@ -1,9 +1,9 @@
-package lesson9_part2.labs.prob11b;
+package mpp.lesson9b.prob11b;
 
 import java.util.Arrays;
 import java.util.List;
 
-import lesson9_part2.labs.prob11a.Employee;
+import mpp.lesson9b.prob11b.Employee;
 
 public class Main {
 

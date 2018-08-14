@@ -1,4 +1,4 @@
-package lesson8.labs.prob1;
+package mpp.lesson8.labs.prob1;
 
 import java.util.function.Function;
 import java.util.function.Supplier;
@@ -11,7 +11,8 @@ public class MyClass {
 	}
 
 	boolean myMethod(MyClass cl) {
-		Function<MyClass, Boolean> bifunc = this::equals;
+		//Function<MyClass, Boolean> bifunc = this::equals;
+		Function<MyClass, Boolean>bifunc= m -> this.equals(m);
 		return bifunc.apply(cl);
 	}
 

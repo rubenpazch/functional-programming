@@ -1,4 +1,4 @@
-package lesson8.labs.prob2.A;
+package mpp.lesson8.labs.prob2.A;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -30,14 +30,19 @@ public class EmployeeInfo {
 		emps.add(new Employee("Joe", 100000));
 		emps.add(new Employee("Joe", 50000));
 		emps.add(new Employee("Andy", 60000));
+		
 		Employee joe = new Employee("Joe", 100000);
 		Employee joe2 = new Employee("Joe", 200000);
+		
 		List<Employee> list = Arrays.asList(joe, joe2);
 		Collections.sort(list, new EmployeeNameComparator());
+		
 		System.out.println(list);
 
 		System.out.println("joe equals joe2? " + joe.equals(joe2));
+		
 		EmployeeNameComparator c = new EmployeeNameComparator();
+		
 		System.out.println("joe equals joe2? " + (c.compare(joe, joe2) == 0));
 
 		/*

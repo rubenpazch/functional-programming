@@ -1,4 +1,4 @@
-package lesson9_part2.labs.prob8;
+package mpp.lesson9b.prob8;
 
 import java.util.Optional;
 
@@ -21,4 +21,10 @@ public class Product {
 	public double getUnitPrice() {
 		return unitPrice;
 	}
+	@Override
+	public String toString() {
+		return "Product [productId=" + productId + ", productName=" + productName + ", unitPrice=" + unitPrice + "]\n";
+	}
+	
+	
 }

@@ -1,11 +1,11 @@
-package lesson9_part2.labs.prob11a;
+package mpp.lesson9b.prob11a;
 
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 
-public class Main {
+public class Main { 
 
 	public static void main(String[] args) {
 		List<Employee> emps = Arrays.asList(new Employee("Joe", "Davis", 120000),
@@ -28,7 +28,7 @@ public class Main {
 //					.orElse("")
 					.collect(Collectors.joining(", "))
 				);
-
+ 
 	}
 
 }

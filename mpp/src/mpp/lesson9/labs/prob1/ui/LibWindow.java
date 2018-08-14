@@ -1,4 +1,4 @@
-package labs.prob1.ui;
+package mpp.lesson9.labs.prob1.ui;
 
 public interface LibWindow {
 	void init();

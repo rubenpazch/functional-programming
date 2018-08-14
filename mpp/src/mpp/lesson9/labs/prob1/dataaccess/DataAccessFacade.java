@@ -1,4 +1,4 @@
-package labs.prob1.dataaccess;
+package mpp.lesson9.labs.prob1.dataaccess;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -9,10 +9,10 @@ import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.List;
 
-import labs.prob1.business.Book;
-import labs.prob1.business.BookCopy;
-import labs.prob1.business.LibraryMember;
-import labs.prob1.dataaccess.DataAccessFacade.StorageType;
+import mpp.lesson9.labs.prob1.business.Book;
+import mpp.lesson9.labs.prob1.business.BookCopy;
+import mpp.lesson9.labs.prob1.business.LibraryMember;
+import mpp.lesson9.labs.prob1.dataaccess.DataAccessFacade.StorageType;
 
 
 public class DataAccessFacade implements DataAccess {
@@ -22,7 +22,7 @@ public class DataAccessFacade implements DataAccess {
 	}
 	
 	public static final String OUTPUT_DIR = System.getProperty("user.dir") 
-			+ "\\src\\labs\\prob1\\dataaccess\\storage";
+			+ "\\src\\mpp\\lesson9\\labs\\prob1\\dataaccess\\storage";
 	public static final String DATE_PATTERN = "MM/dd/yyyy";
 	
 	

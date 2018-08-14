@@ -1,8 +1,8 @@
-package labs.prob1.ui;
+package mpp.lesson9.labs.prob1.ui;
 
-import labs.prob1.business.ControllerInterface;
-import labs.prob1.business.LoginException;
-import labs.prob1.business.SystemController;
+import mpp.lesson9.labs.prob1.business.ControllerInterface;
+import mpp.lesson9.labs.prob1.business.LoginException;
+import mpp.lesson9.labs.prob1.business.SystemController;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;

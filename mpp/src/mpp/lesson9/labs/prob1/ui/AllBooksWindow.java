@@ -1,4 +1,4 @@
-package labs.prob1.ui;
+package mpp.lesson9.labs.prob1.ui;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

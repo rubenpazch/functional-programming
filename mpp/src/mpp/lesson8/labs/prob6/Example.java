@@ -1,4 +1,4 @@
-package lesson8.labs.prob6;
+package mpp.lesson8.labs.prob6;
 
 import java.lang.reflect.Method;
 import java.util.Comparator;

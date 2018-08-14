@@ -1,5 +1,4 @@
-package labs.prob2;
-
+package mpp.lesson9.labs.prob2;
 import java.time.LocalDate;
 
 public class OrderItem {

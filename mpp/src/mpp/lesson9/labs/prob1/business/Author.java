@@ -1,4 +1,4 @@
-package labs.prob1.business;
+package mpp.lesson9.labs.prob1.business;
 
 import java.io.Serializable;
 

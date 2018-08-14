@@ -1,4 +1,4 @@
-package lesson9_part2.labs.prob11b;
+package mpp.lesson9b.prob11b;
 
 @FunctionalInterface
 public interface TriFunction<S,T,U,R> {

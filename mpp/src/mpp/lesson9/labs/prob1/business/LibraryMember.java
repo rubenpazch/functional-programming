@@ -1,10 +1,10 @@
-package labs.prob1.business;
+package mpp.lesson9.labs.prob1.business;
 
 import java.io.Serializable;
 import java.time.LocalDate;
 
 
-import labs.prob1.dataaccess.DataAccessFacade;
+import mpp.lesson9.labs.prob1.dataaccess.DataAccessFacade;
 
 final public class LibraryMember extends Person implements Serializable {
 	private String memberId;

@@ -1,4 +1,4 @@
-package lesson8.labs.prob1;
+package mpp.lesson8.labs.prob1;
 
 import java.util.function.Supplier;
 

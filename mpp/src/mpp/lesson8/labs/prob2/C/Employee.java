@@ -1,4 +1,4 @@
-package lesson8.labs.prob2.C;
+package mpp.lesson8.labs.prob2.C;
 
 public class Employee {
 	String name;
